@@ -1,0 +1,201 @@
+@import "../../../style/skin.wxss";
+
+
+
+.main {
+	padding: 0rpx 0rpx 100rpx;
+}
+
+.up {
+	width: 100%;
+}
+
+.up image {
+	width: 100%;
+	box-shadow: 0rpx 15rpx 8px -10rpx rgba(28, 236, 108, 0.4);
+	border-bottom: 10rpx solid var(--projectCompareColor);
+}
+
+.down {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10rpx 16rpx;
+	margin-top: -90rpx;
+	z-index: 9999;
+	position: relative;
+}
+
+.menu {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #fff;
+	padding: 20rpx 10rpx;
+	border-radius: 30rpx;
+}
+
+.menu .item {
+	width: 25%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 180rpx;
+
+}
+
+.menu .item .item-inner {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.menu .item-inner .img {
+	width: 100rpx;
+	height: 100rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f8f8f8;
+	border-radius: 10rpx;
+	border-top-left-radius: 20rpx;
+	border-bottom-right-radius: 20rpx;
+}
+
+
+.menu .item-inner .img image {
+	width: 70rpx;
+	height: 70rpx;
+}
+
+.menu .item-inner .title {
+	font-size: 24rpx;
+	color: #333;
+	margin-top: 10rpx;
+}
+
+.vouch-box {
+	padding: 30rpx 20rpx 10rpx;
+	background-color: #fff;
+	border-radius: 20rpx;
+	margin-top: 30rpx;
+	display: flex;
+	flex-direction: column;
+}
+
+.vouch-box .title {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20rpx;
+}
+
+.vouch-box .title .mark {
+	width: 10rpx;
+	height: 30rpx;
+	background-image: linear-gradient(145deg, #3dd1ac, #a2ecda, #3dd1ac);
+	margin-right: 18rpx;
+	border-radius: 10rpx;
+}
+
+.vouch-box .title .txt {
+	font-size: 28rpx;
+	font-weight: bold;
+}
+
+.vouch-box .list {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.vouch-box .list .item {
+	width: 100%;
+	display: flex;
+	border-bottom: 2rpx dotted #ccc;
+	padding: 16rpx 0;
+}
+
+.vouch-box .list .item:last-child {
+	border-bottom: 0;
+}
+
+.vouch-box .list .item .left {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.vouch-box .list .item .left .line {
+	font-size: 26rpx;
+	color: #333;
+}
+
+.vouch-box .list .item .left .bottom {
+	font-size: 22rpx;
+	color: #999;
+}
+
+.vouch-box .list .item .right {
+	margin-left: 10rpx;
+	height: 110rpx;
+	width: 180rpx;
+}
+
+.vouch-box .list .item .right>image {
+	height: inherit;
+	width: inherit;
+	border-radius: 6rpx;
+}
+
+
+
+
+.meet-list {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20rpx 0rpx;
+}
+
+.meet-list .item {
+	width: calc((100% - 20rpx) / 2);
+	display: flex;
+	background-image: linear-gradient(145deg, #f8f8f8, #fff);
+	margin-bottom: 20rpx;
+	border-radius: 6rpx;
+	padding: 20rpx 14rpx;
+	border: 2rpx solid var(--projectColorLight);
+}
+
+.meet-list .item:nth-child(2n+1) {
+	margin-right: 20rpx;
+}
+
+.meet-list .item .left {
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 10%;
+	margin-right: 12rpx;
+}
+
+.meet-list .item .right {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-bottom: 4rpx;
+}
+
+.meet-list .item .right .tt {
+	width: 100%;
+	font-size: 24rpx;
+	color: #333;
+}
+
+.meet-list .item .right .cnt {
+	width: 100%;
+	font-size: 22rpx;
+	color: #999;
+}
